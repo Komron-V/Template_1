@@ -125,3 +125,100 @@ body {
     top: 695px;
     left: 60px;
 }
+
+/*.first-btn-banner {*/
+/*    box-sizing: border-box;*/
+/*    position: relative;*/
+/*    height: 82px;*/
+/*    left: 0%;*/
+/*    right: 0%;*/
+/*    top: 0px;*/
+/*    background-color: #EFD372;*/
+/*    background-image: url("./assets/arrow.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: right center;*/
+/*    background-size: 20px;*/
+/*    border: 1px solid #EFD372;*/
+/*    border-radius: 16px;*/
+/*    width: 219px;*/
+/*    color: #274C5B;*/
+/*    font-family: Roboto;*/
+/*    font-size: 19px;*/
+/*    font-weight: 400;*/
+/*    line-height: 32px;*/
+/*    letter-spacing: 0.36000001430511475px;*/
+/*    text-align: left;*/
+/*    padding-right: 40px;*/
+/*}*/
+
+/*.arrow {*/
+/*    border-radius: 50%; !* Add border-radius for circular shape *!*/
+/*    background-color: #274C5B; !* Set background color for the arrow circle *!*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    display: inline-block;*/
+/*    margin-left: 5px;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+.first-btn-banner {
+    box-sizing: border-box;
+    position: relative;
+    height: 82px;
+    left: 60px;
+    top: 800px;
+    background-color: #EFD372;
+    border: 1px solid #EFD372;
+    border-radius: 16px;
+    width: 219px;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.36000001430511475px;
+    padding-right: 40px;
+    overflow: hidden;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("./assets/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 1;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: inline-block;
+    background-color: #274C5B;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.first-btn-banner::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #274C5B;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: -1;
+}
