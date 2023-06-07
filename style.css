@@ -8,21 +8,31 @@ body {
     list-style-type: none;
 }
 
+.menu ul li a{
+    text-decoration: none;
+    color:  #274C5B;
+}
+
 .menu ul li {
     display: inline-block;
     vertical-align: middle;
     margin-top: 60px;
-    color:  #274C5B;
     margin-left: 40px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
 }
 
-.enabled{
+.menu ul li a.home-link {
     color: #7EB693;
+    margin-left: 100px;
 }
 
-.logo img{
+.logo img {
     margin-left: 34px;
-
 }
 
 .logo img, .trolley img {
@@ -32,40 +42,29 @@ body {
 .logo li, .trolley li {
     padding: 0 20px;
     line-height: 60px;
-
 }
-
 
 .menu {
     padding: 10px;
 }
 
-.trolley{
+.trolley {
     border-radius: 33px;
     border: 1px solid #D4D4D4;
     padding: 7px 20px 7px 11px;
-    width: 120px;
-
+    width: 160px;
 }
 
 .trolley img {
     margin-right: 10px;
 }
 
-.first{
-    margin-left: 1020px;
+.last {
+    margin-right: 120px;
 }
 
-.first li{
-    margin-left: 20px;
-}
-
-.last{
-    margin-right: 400px;
-}
-
-.section_one img{
+.section_one img {
     width: 100%;
     z-index: -1;
+    margin-top: 54px;
 }
-
