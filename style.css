@@ -67,4 +67,61 @@ body {
     width: 100%;
     z-index: -1;
     margin-top: 54px;
+    position: absolute;
+}
+
+/*  First Banner */
+.nature{
+    position: absolute;
+    height: 65px;
+    top: 480px;
+    font-family: 'Yellowtail';
+    left: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+}
+
+.section_one p {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    top: 520px;
+    left: 60px;
+}
+
+
+.section_one .first-banner-text-second{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    top: 605px;
+    left: 60px;
+}
+
+.section_one .first-banner-text-third{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    top: 695px;
+    left: 60px;
 }
